@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "start:dev": "sirv public --single --dev --port process.env.PORT",
+    "start:dev": "sirv public --single --dev --host --port process.env.PORT",
     "build": "rollup -c --host",
     "dev": "rollup -c -w --host",
     "start": "sirv public --no-clear --host"
